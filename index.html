@@ -14,7 +14,9 @@ html{scroll-behavior:smooth}.brand-logo{width:45px;height:45px;object-fit:contai
 (() => {
 'use strict';
 const STORAGE='fp_demo_v1';
-const OFFICIAL_WHATSAPP='5571986978479';
+  const SUPABASE_URL = 'https://grizyuzastbajvehkeee.supabase.co';
+  const SUPABASE_ANON_KEY = 'sb_publishable_W-U5vATKWASQDsc6GzjGww_dnHs7x0n';
+const OFFICIAL_WHATSAPP='5571986978479'
 const modalities=['CrossFit RX / Elite','CrossFit Teens','HYROX','Corrida','Musculação','CrossFit Comercial','Personalizado','Natação'];
 const days=['Segunda-feira','Terça-feira','Quarta-feira','Quinta-feira','Sexta-feira','Sábado','Domingo'];
 const starter={athletes:[{id:'a1',name:'Atleta Exemplo',modalities:['CrossFit RX / Elite','HYROX']},{id:'a2',name:'Atleta Teens',modalities:['CrossFit Teens']}],workouts:[{id:'w1',title:'Condicionamento e resistência',modality:'CrossFit RX / Elite',day:'Segunda-feira',type:'general',athleteId:'',body:'AQUECIMENTO — 8 MIN\nMobilidade e preparação progressiva\n\nWOD — AMRAP 16 MIN\n200m RUN\n12 WALL BALL\n10 BURPEES\n\nObjetivo: ritmo sustentável e movimentos consistentes.',notes:'Treino demonstrativo. Substitua pela programação oficial.',createdAt:Date.now()},{id:'w2',title:'Base aeróbica',modality:'HYROX',day:'Quarta-feira',type:'general',athleteId:'',body:'FOR TIME — CAP 35 MIN\n800m RUN\n30 WALL BALL\n800m RUN\n30 BURPEE BROAD JUMP\n800m RUN\n40 LUNGES',notes:'Treino demonstrativo.',createdAt:Date.now()},{id:'w3',title:'Acompanhamento individual',modality:'Personalizado',day:'Sexta-feira',type:'individual',athleteId:'a1',body:'TÉCNICA — 15 MIN\nExercícios escolhidos após avaliação individual.\n\nREGISTRO\nAnotar sensação de esforço e principais dificuldades.',notes:'Exemplo individual, não prescrição definitiva.',createdAt:Date.now()}]};
